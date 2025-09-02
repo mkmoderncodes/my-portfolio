@@ -1,0 +1,12 @@
+.nav.active{
+    color:blueviolet;
+    text-decoration: underline;
+}
+.navHead{
+    width:"100%";
+    padding-right: 90px;
+    padding-left: 90px;
+    position: absolute;
+    top:529px;
+    bottom:10px;
+}

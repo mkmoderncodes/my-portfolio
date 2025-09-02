@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Angelina';
+  src: url('fontstyle/angelina.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-font {
+  font-family: 'Angelina', cursive;
+}
+.horizontal{
+    width: 40rem;
+    place-self: center;
+    margin-top: 10px;
+}
