@@ -13,3 +13,15 @@
     place-self: center;
     margin-top: 10px;
 }
+
+/* responsible*/
+/* mobile */
+
+@media screen and (max-width:768px){
+  .About-container{
+    width: 30rem;
+  }
+  .horizontal{
+    width: 30rem;
+  }
+}

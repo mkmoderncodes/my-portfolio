@@ -1,4 +1,5 @@
 import Allitems from "./Allitems";
+import './project.css'
 const All: React.FC = () => {
 	return (
 		<>

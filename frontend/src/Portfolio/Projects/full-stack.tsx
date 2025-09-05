@@ -1,5 +1,5 @@
 import Allitems from "./Allitems";
-
+import './project.css'
 const FullStack: React.FC = () => {
 	const fullStack1 = Allitems[0];
 	const fullStack2 = Allitems[1];
@@ -7,10 +7,10 @@ const FullStack: React.FC = () => {
 	return (
 		<>
 			<div className="all shadow-2xl rounded-lg mx-8 relative bottom-8 border-2 pb-10">
-				<div className="items mt-1 ml-10 pt-20 text-lg flex justify-center items-center space-x-3">
+				<div className="items mt-1 ml-10 pt-20 text-lg grid grid-cols-4 gap-5 justify-center items-center space-x-3">
 					<div
 						className="item shadow-lg border-2 px-4 py-3 rounded-lg"
-						style={{ width: "20%" }}>
+						style={{ width: "88%" }}>
 						<h3 className="uppercase font-bold opacity-70 text-center">
 							{fullStack1.name}
 						</h3>
@@ -41,7 +41,7 @@ const FullStack: React.FC = () => {
 					</div>
 					<div
 						className="shadow-lg border-2 px-4 py-3 rounded-lg"
-						style={{ width: "20%" }}>
+						style={{ width: "88%" }}>
 						<h3 className="uppercase font-bold opacity-70 text-center">
 							{fullStack2.name}
 						</h3>
@@ -72,7 +72,7 @@ const FullStack: React.FC = () => {
 					</div>
 					<div
 						className="shadow-lg border-2 px-4 py-3 rounded-lg"
-						style={{ width: "20%" }}>
+						style={{ width: "88%" }}>
 						<h3 className="uppercase font-bold opacity-70 text-center">
 							{fullStack3.name}
 						</h3>

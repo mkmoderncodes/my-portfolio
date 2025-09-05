@@ -1,13 +1,14 @@
 import Allitems from "./Allitems";
+import './project.css'
 const WebDesign: React.FC = () => {
 	const onlyWeb = Allitems[2];
 	return (
 		<>
-			<div className="all shadow-2xl rounded-lg mx-8 relative bottom-8 border-2 pb-10">
-				<div className="items mt-1 ml-10 pt-20 text-lg flex justify-center items-center space-x-3">
+			<div className="web shadow-2xl rounded-lg mx-8 relative bottom-8 border-2 pb-10">
+				<div className="webItems mt-1 ml-10 pt-20 text-lg grid grid-cols-4 gap-5 justify-center items-center space-x-3">
 					<div
-						className="item shadow-lg border-2 px-4 py-3 rounded-lg"
-						style={{ width: "20%" }}>
+						className="webItem shadow-lg border-2 px-4 py-3 rounded-lg"
+						style={{ width: "88%" }}>
 						<h3 className="uppercase font-bold opacity-70 text-center">
 							{onlyWeb.name}
 						</h3>

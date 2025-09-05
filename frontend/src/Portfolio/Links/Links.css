@@ -10,3 +10,11 @@
     top:529px;
     bottom:10px;
 }
+/* Responsive styles */
+/* for mobile */
+@media screen and (max-width: 768px) {
+  .navHead {
+    width: 30rem;
+    top:510px;
+  }
+}

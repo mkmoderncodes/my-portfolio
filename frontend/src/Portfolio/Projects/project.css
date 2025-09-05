@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  .project{
+    width: 30rem;
+  }
+  .all{
+    width: 30rem;
+  }
+  .items{
+    display: flex;
+    flex-direction: column;
+  }
+  .web{
+    width: 30rem;
+  }
+  .webItems{
+    display: flex;
+    flex-direction: column;
+  }
+  .webItem{
+    width: 88%;
+  }
+}

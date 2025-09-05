@@ -10,7 +10,8 @@ const Contact: React.FC = () => {
 	const sendEmail = async (event:any) => {
 		event.preventDefault();
 		try {
-			const data = await fetch('http://localhost:3000/contact',{
+			const apiUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000';
+			const data = await fetch(`${apiUrl}/contact`,{
 				method:'POST',
 				headers:{'Content-Type':'application/json'},
 				body:JSON.stringify({name,email,message:textarea})

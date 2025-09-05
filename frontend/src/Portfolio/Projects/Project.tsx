@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
+import './project.css'
 const Projects: React.FC = () => {
 	return (
 		<>

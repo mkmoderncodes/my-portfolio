@@ -25,3 +25,10 @@
   margin-left: 5rem;
   margin-top: 1.25rem;
 }
+/* Responsive styles */
+/* for moble */
+@media screen and (max-width:768px){
+  .containers{
+    width: 30rem;
+  }
+}

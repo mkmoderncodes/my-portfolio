@@ -4,3 +4,13 @@
   row-gap: 20px;
   place-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .custom-font {
+    width: 30rem;
+  }
+  .skill{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+}
